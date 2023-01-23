@@ -8,15 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
     <body>
         <header class="header">
             <div class="container header-container">
             <nav class="header-navigation">
-                <a href="" class="header-logo">
-                    <img src="./images/logo.svg" alt="site logo" />
-                  </a>
+                <a class="header-logo" href="./index.html"><span class="logo-Web">Web</span>Studio</a>
         <ul class="header-list list">
         <li class="header-item"><a href="./index.html" target="_blank" class="header-link link">Studio</a></li>
         <li class="header-item"><a href="./portfolio.html" target="_blank" class="header-link link">Portfolio</a></li>
@@ -40,28 +45,22 @@
         <li class="filter-item"><button type="button" class="filter-btn btn">Marketing</button></li>
     </ul>
     <ul class="filter-projects">
-        <li><img src="./images-portfolio/img.jpg" alt="bank application" width="360"><div class="border-text"><h3 class="projects-title title">Banking App Interface Concept</h3><p class="projects-text">App</p></div></li>
-        <li><img src="./images-portfolio/img1.jpg" alt="qr code" width="360"><div class="border-text"><h3 class="projects-title title" >Cashless Payment</h3><p class="projects-text">Marketing</p></div></li>
-        <li><img src="./images-portfolio/img2.jpg" alt="web page on laptop and phone" width="360"><div class="border-text"><h3 class="projects-title title">Meditaion App</h3><p class="projects-text">App</p></div></li>
-    </ul>
-    <ul class="filter-projects">
-        <li><img src="./images-portfolio/img3.jpg" alt="taxi driver" width="360"><div class="border-text"><h3 class="projects-title title">Taxi Service</h3><p class="projects-text">Marketing</p></div</li>
-        <li><img src="./images-portfolio/img4.jpg" alt="illustrations on phone screen" width="360"><div class="border-text"><h3 class="projects-title title">Screen Illustrations</h3><p class="projects-text">Design</p></div></li>
-        <li><img src="./images-portfolio/img5.jpg" alt="woman with headphones" width="360"><div class="border-text"><h3 class="projects-title title">Online Courses</h3><p class="projects-text">Marketing</p></div</li>
-    </ul>
-    <ul class="filter-projects">
-        <li><img src="./images-portfolio/img6.jpg" alt="instagram stories" width="360"><div class="border-text"><h3 class="projects-title title">Instagram Stories Concept</h3><p class="projects-text">Design</p></div></li>
-        <li><img src="./images-portfolio/img7.jpg" alt="food in bag" width="360"><div class="border-text"><h3 class="projects-title title">Organic Food</h3><p class="projects-text">Web Site</p ></div></li>
-        <li><img src="./images-portfolio/img8.jpg" alt="frshly prepared coffee" width="360"><div class="border-text"><h3 class="projects-title title">Fresh Coffee</h3><p class="projects-text">Web Site</p></div></li>
+        <li><img src="./images-portfolio/img.jpg" alt="bank application" class="image-projects"><div class="border-text flex-element"><h3 class="projects-title title">Banking App Interface Concept</h3><p class="projects-text">App</p></div></li>
+        <li><img src="./images-portfolio/img1.jpg" alt="qr code" class="image-projects"><div class="border-text flex-element"><h3 class="projects-title title" >Cashless Payment</h3><p class="projects-text">Marketing</p></div></li>
+        <li><img src="./images-portfolio/img2.jpg" alt="web page on laptop and phone" class="image-projects"><div class="border-text"><h3 class="projects-title title">Meditaion App</h3><p class="projects-text">App</p></div></li>
+        <li><img src="./images-portfolio/img3.jpg" alt="taxi driver" class="image-projects"><div class="border-text flex-element"><h3 class="projects-title title">Taxi Service</h3><p class="projects-text">Marketing</p></div</li>
+        <li><img src="./images-portfolio/img4.jpg" alt="illustrations on phone screen" class="image-projects"><div class="border-text"><h3 class="projects-title title">Screen Illustrations</h3><p class="projects-text">Design</p></div></li>
+        <li><img src="./images-portfolio/img5.jpg" alt="woman with headphones" class="image-projects"><div class="border-text flex-element"><h3 class="projects-title title">Online Courses</h3><p class="projects-text">Marketing</p></div</li>
+        <li><img src="./images-portfolio/img6.jpg" alt="instagram stories" class="image-projects"><div class="border-text flex-element"><h3 class="projects-title title">Instagram Stories Concept</h3><p class="projects-text">Design</p></div></li>
+        <li><img src="./images-portfolio/img7.jpg" alt="food in bag" class="image-projects"><div class="border-text flex-element"><h3 class="projects-title title">Organic Food</h3><p class="projects-text">Web Site</p ></div></li>
+        <li><img src="./images-portfolio/img8.jpg" alt="frshly prepared coffee" class="image-projects"><div class="border-text flex-element"><h3 class="projects-title title">Fresh Coffee</h3><p class="projects-text">Web Site</p></div></li>
     </ul>
 </div>
  </section>
 </main>
 <footer class="footer">
     <div class="container">
-    <a href="./index.html" class="footer-logo">
-        <img src="./images/logo2.svg" alt="site logo"/>
-      </a>
+        <a class="logo link" href="./index.html"><span class="logo-Web">Web</span>Studio</a>
       <p class="footer-text">Increase the flow of customers<br> and sales for your business with digital<br> marketing & growth solutions.</p>
     </div>
     </footer>
